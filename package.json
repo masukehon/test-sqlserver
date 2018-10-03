@@ -1,0 +1,22 @@
+{
+  "name": "test-sqlserver",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/masukehon/test-sqlserver.git",
+  "author": "masukehon <masuke96@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "nodemon --exec mocha --recursive",
+    "server": "nodemon app.js",
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "mocha": "^5.2.0",
+    "mssql": "^4.2.1",
+    "nodemon": "^1.18.4"
+  }
+}

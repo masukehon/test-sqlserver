@@ -1,0 +1,20 @@
+<table>
+    <tr>
+        <td>
+            Tên
+        </td>
+        <td>
+            Tuổi
+        </td>
+    </tr>
+    <% singers.forEach(singer => { %>
+    <tr>
+        <td>
+            <%=singer.name%>
+        </td>
+        <td>
+            <%=singer.age%>
+        </td>
+    </tr>
+    <% }) %>
+</table>
